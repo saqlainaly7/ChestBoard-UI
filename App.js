@@ -1,20 +1,106 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
-export default function App() {
+import Btn from './components/btn';
+const  App=()=> {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+   <View style={{margin:'auto', borderStyle:"2 solid green"}}>
+
+      <View style={{ flex: 1, backgroundColor:'slategray', padding:5}}>
+        <View style={{ flexDirection: 'row', }}>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          
+        </View>
+        <View style={{ flexDirection: 'row', marginTop: 2 }}>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+         
+        </View>
+        <View style={{ flexDirection: 'row', marginTop: 2 }}>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+         
+        </View>
+        <View style={{ flexDirection: 'row', marginTop: 2 }}>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+         
+        </View>
+        <View style={{ flexDirection: 'row', marginTop: 2 }}>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          
+        </View>
+        <View style={{ flexDirection: 'row', marginTop: 2 }}>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          
+        </View>
+        <View style={{ flexDirection: 'row', marginTop: 2 }}>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          
+        </View>
+        <View style={{ flexDirection: 'row', marginTop: 2 }}>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+          <Btn backgcol={'black'} onPress={() => { }}></Btn>
+          <Btn backgcol={'ghostwhite'} onPress={() => { }}></Btn>
+       
+        </View>
+
+   </View>
+
+     
+      
+   </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
